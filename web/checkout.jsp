@@ -34,8 +34,8 @@
                     </div>
                     <div class="row">
                         <div style="display: table; margin: auto;">
-                            <span class="step step_complete"> <a href="/SessionTracker?name=cart" class="check-bc">Cart</a> <span class="step_line step_complete"> </span> <span class="step_line backline"> </span> </span>
-                            <span class="step step_complete"> <a href="/SessionTracker?name=checkout" class="check-bc">Checkout</a> <span class="step_line "> </span> <span class="step_line step_complete"> </span> </span>
+                            <span class="step step_complete"> <a href="./SessionTracker?name=cart" class="check-bc">Cart</a> <span class="step_line step_complete"> </span> <span class="step_line backline"> </span> </span>
+                            <span class="step step_complete"> <a href="./SessionTracker?name=checkout" class="check-bc">Checkout</a> <span class="step_line "> </span> <span class="step_line step_complete"> </span> </span>
                             <span class="step_thankyou check-bc step_complete">Thank you</span>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="row cart-body">
-                <form class="form-horizontal" method="post" action="cartServlet">
+                <form class="form-horizontal" method="post" action="./cartServlet">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
                         <!--REVIEW ORDER-->
                         <div class="panel panel-info">
@@ -58,25 +58,25 @@
                                         <div class="col-sm-3 col-xs-3">
                                             <c:choose>
                                                 <c:when test="${item.product.getProductCode() == '50cal1'}">
-                                                    <img src="/vicBrewing.png" style="height: 172px; width: 100px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/vicBrewing.png" style="height: 172px; width: 100px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'pintGlass1'}">
-                                                    <img src="/pint.jpeg" style="height: 150px; width: 100px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/pint.jpeg" style="height: 150px; width: 100px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'tulipGlass1'}">
-                                                    <img src="/tulip.jpeg" style="height: 120px; width: 100px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/tulip.jpeg" style="height: 120px; width: 100px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'beerSampler1'}">
-                                                    <img src="/beerSampler.jpeg" style="height: 100px; width: 100px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/beerSampler.jpeg" style="height: 100px; width: 100px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'whiteShirt1'}">
-                                                    <img src="/whiteShirt.jpg" style="height: 172px; width: 120px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/whiteShirt.jpg" style="height: 172px; width: 120px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'blackShirt1'}">
-                                                    <img src="/blackShirt.JPG" style="height: 172px; width: 120px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/blackShirt.JPG" style="height: 172px; width: 120px">
                                                 </c:when>
                                                 <c:when test="${item.product.getProductCode() == 'brewKit1'}">
-                                                    <img src="/BrewKit.png" style="height: 72px; width: 100px">
+                                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/BrewKit.png" style="height: 72px; width: 100px">
                                                 </c:when>
                                             </c:choose>
                                         </div>

@@ -26,7 +26,7 @@
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-<form method="post" action="SessionTracker">
+<form method="post" action="./SessionTracker">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-5 col-md-3">

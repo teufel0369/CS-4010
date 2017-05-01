@@ -13,7 +13,7 @@ public class ProductDB {
 
     public static synchronized Product getProduct(String productCode) throws IOException, ParseException {
         JSONParser parser = new JSONParser();
-        JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("/Users/magnificentbastard/IdeaProjects/Store/web/ProductDB.json"));
+        JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("/usr/share/tomcat/webapps/j-thompson/ProductDB.json"));
         JSONArray productArray = (JSONArray) jsonObject.get("productArray");
         Iterator it = productArray.iterator();
         String productDescription = "";

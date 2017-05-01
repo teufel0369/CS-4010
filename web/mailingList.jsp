@@ -28,7 +28,7 @@
         <p><i><c:out value='${message}'/></i></p>
         <!-- may need to make this more secure from XSS *** jsp tags -->
         <div class="conatainer">
-            <form action="/emailList" method="post">
+            <form action="./emailList" method="post">
                 <label class="padTop">Email: </label>
                 <input type="email" name="email" value="${user.email}" required><br>
                 <label class="padTop">First Name: </label>

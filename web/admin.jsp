@@ -57,6 +57,8 @@
                                 <address>
                                     <strong>Payment Method:</strong><br>
                                     ${item.getCardType()} ${item.getCardNumber()}<br>
+                                    Exp: ${item.getExpirationMonth()} / ${item.getExpirationYear()}<br>
+                                    CVV: ${item.getCode()}<br>
                                     ${item.getEmail()}
                                 </address>
                             </div>

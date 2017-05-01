@@ -9,7 +9,7 @@ body{
 /* to adjust the opacity of the background image */
 body::after{
     content: "";
-    background-image: url("/beerTaps.jpeg");
+    background-image: url("http://hoare.cs.umsl.edu/servlet/j-thompson/beerTaps.jpeg");
     background-attachment: fixed;
     background-size: 100%;
     -webkit-background-size: 100%;

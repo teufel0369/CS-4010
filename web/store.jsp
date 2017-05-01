@@ -26,14 +26,14 @@
 
         <div class="product-flex-container">
             <div class="product-container-item">
-                <img src="/vicBrewing.png" class="img-rounded" style="height: 272px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/vicBrewing.png" class="img-rounded" style="height: 272px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">.50 Cal Bottle Opener</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 20.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="50cal1">
                             <input type="hidden" name="task" value="addCart">
@@ -43,14 +43,14 @@
                 </div>
             </div>
             <div class="product-container-item">
-                <img src="/pint.jpeg" class="img-rounded" style="height: 250px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/pint.jpeg" class="img-rounded" style="height: 250px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">Pint Beer Glass</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 7.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="pintGlass1">
                             <input type="hidden" name="task" value="addCart">
@@ -60,14 +60,14 @@
                 </div>
             </div>
             <div class="product-container-item">
-                <img src="/tulip.jpeg" class="img-rounded" style="height: 220px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/tulip.jpeg" class="img-rounded" style="height: 220px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">Tulip Beer Glass</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 8.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="tulipGlass1">
                             <input type="hidden" name="task" value="addCart">
@@ -77,14 +77,14 @@
                 </div>
             </div>
             <div class="product-container-item">
-                <img src="/beerSampler.jpeg" class="img-rounded" style="height: 200px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/beerSampler.jpeg" class="img-rounded" style="height: 200px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">Beer Sampler Platter</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 40.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="beerSampler1">
                             <input type="hidden" name="task" value="addCart">
@@ -96,14 +96,14 @@
         </div>
         <div class="product-flex-container">
             <div class="product-container-item">
-                <img src="/whiteShirt.jpg" class="img-rounded" style="height: 272px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/whiteShirt.jpg" class="img-rounded" style="height: 272px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">Men's Victorious Brewing Co.<br>White T-Shirt</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 25.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="whiteShirt1">
                             <input type="hidden" name="task" value="addCart">
@@ -113,14 +113,14 @@
                 </div>
             </div>
             <div class="product-container-item">
-                <img src="/blackShirt.JPG" class="img-rounded" style="height: 272px; width: 200px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/blackShirt.JPG" class="img-rounded" style="height: 272px; width: 200px;">
                 <div class="container-sub-items">
                     <span class="product-description">Men's Victorious Brewing Co.<br>Black T-Shirt</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 25.00 </span>
                     </div>
                     <div class="sub-2">
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="blackShirt1">
                             <input type="hidden" name="task" value="addCart">
@@ -130,12 +130,12 @@
                 </div>
             </div>
             <div class="product-container-item">
-                <img src="/BrewKit.png" class="img-rounded" style="height: 272px; width: 300px;">
+                <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/BrewKit.png" class="img-rounded" style="height: 272px; width: 300px;">
                 <div class="container-sub-items">
                     <span class="product-description">All-In-One Home Brewing Kit</span>
                     <div class="sub-1">
                         <span class="product-price"> $ 499.00 </span>
-                        <form method="get" action="cartServlet">
+                        <form method="get" action="./cartServlet">
                             <input type="submit" class="btn btn-danger" value="Add to Cart">
                             <input type="hidden" name="productCode" value="brewKit1">
                             <input type="hidden" name="task" value="addCart">

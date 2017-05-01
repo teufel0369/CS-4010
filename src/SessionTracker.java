@@ -42,11 +42,6 @@ public class SessionTracker extends HttpServlet {
         HttpSession session = request.getSession(); //get the session
         String sessionID = (String) session.getAttribute("sessionID");
         System.out.println(sessionID);
-        String task = request.getParameter("name");
-
-        String message = new String("");
-
-
 
         if(sessionID == null){ //if the session is new
 

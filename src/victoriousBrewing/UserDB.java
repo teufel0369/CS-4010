@@ -15,7 +15,7 @@ public class UserDB {
     public static synchronized void insertUser(User user) throws IOException, ParseException {
 
         JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader("/Users/magnificentbastard/IdeaProjects/Store/web/UserDB.json"));
+        Object obj = parser.parse(new FileReader("/UserDB.json"));
         JSONObject jsonObject = (JSONObject) obj;
 
         //get the credentials for the user
@@ -32,7 +32,7 @@ public class UserDB {
 
         appendToList(jsonObject, newJSON); //append those credentials to the JSON array
 
-        try(FileWriter file = new FileWriter("/Users/magnificentbastard/IdeaProjects/Store/web/UserDB.json")){
+        try(FileWriter file = new FileWriter("/classes/Java/j-thompson/tomcat/UserDB.json")){
             file.write(jsonObject.toJSONString()); //write the object to the file
             file.flush(); //flush the FileWriter buffer
         }
@@ -48,7 +48,7 @@ public class UserDB {
         JSONParser parser = new JSONParser(); //instantiate a json parser
 
         try{
-            Object obj = parser.parse(new FileReader("/Users/magnificentbastard/IdeaProjects/Store/web/UserDB.json")); //parse the file
+            Object obj = parser.parse(new FileReader("/usr/share/tomcat/webapps/j-thompson/UserDB.json")); //parse the file
             JSONObject jsonObject = (JSONObject) obj; //make an object out the parsed file
             JSONArray users = (JSONArray) jsonObject.get("users"); //get the array of users
             Iterator it = users.iterator(); //iterator for the array

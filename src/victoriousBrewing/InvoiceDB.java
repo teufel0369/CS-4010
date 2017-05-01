@@ -21,7 +21,7 @@ public class InvoiceDB {
         ArrayList<Invoice> list = getInvoices();
         list.add(invoice);
 
-        try (Writer writer = new FileWriter("/Users/magnificentbastard/IdeaProjects/Store/web/InvoiceDB.json")) {
+        try (Writer writer = new FileWriter("/usr/share/tomcat/webapps/j-thompson/InvoiceDB.json")) {
             Gson gson = new GsonBuilder().create();
             gson.toJson(list, writer);
         }
@@ -30,7 +30,7 @@ public class InvoiceDB {
     public static synchronized ArrayList<Invoice> getInvoices() throws FileNotFoundException {
         Invoice invoice = null;
         Gson gson = new Gson();
-        JsonReader reader = new JsonReader(new FileReader("/Users/magnificentbastard/IdeaProjects/Store/web/InvoiceDB.json"));
+        JsonReader reader = new JsonReader(new FileReader("/usr/share/tomcat/webapps/j-thompson/InvoiceDB.json"));
         ArrayList<Invoice> list = gson.fromJson(reader, INVOICE_TYPE);
 
         return list;
