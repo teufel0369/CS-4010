@@ -42,6 +42,9 @@ public class adminServlet extends HttpServlet {
             case "logout":
                 url = "/login.jsp";
                 break;
+            case "debugging":
+                url = "/Debugging.jsp";
+                break;
         }
 
         return url;

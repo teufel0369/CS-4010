@@ -52,7 +52,7 @@
                                     <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/beerSampler.jpeg" style="height: 100px; width: 100px">
                                 </c:when>
                                 <c:when test="${item.product.getProductCode() == 'whiteShirt1'}">
-                                    <img src="http://http://hoare.cs.umsl.edu/servlet/j-thompson/whiteShirt.jpg" style="height: 172px; width: 120px">
+                                    <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/whiteShirt.jpg" style="height: 172px; width: 120px">
                                 </c:when>
                                 <c:when test="${item.product.getProductCode() == 'blackShirt1'}">
                                     <img src="http://hoare.cs.umsl.edu/servlet/j-thompson/blackShirt.JPG" style="height: 172px; width: 120px">
@@ -93,10 +93,10 @@
                     </tr>
             </table>
            <div class="wrapper1">
-               <a href="../SessionTracker?name=store" class="btn btn-warning btn-med"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+               <a href="./SessionTracker?name=store" class="btn btn-warning btn-med"><i class="fa fa-angle-left"></i> Continue Shopping</a>
            </div>
            <div class="wrapper3">
-               <a href="../SessionTracker?name=checkout" class="btn btn-success btn-med" name="sessionID" value="<c:out value="${sessionScope.sessionID}"/>">Checkout <i class="fa fa-angle-right"></i></a>
+               <a href="./SessionTracker?name=checkout" class="btn btn-success btn-med" name="sessionID" value="<c:out value="${sessionScope.sessionID}"/>">Checkout <i class="fa fa-angle-right"></i></a>
            </div>
         </div>
         <br><br><br><br><br><br><br>

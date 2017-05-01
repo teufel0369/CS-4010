@@ -52,6 +52,7 @@ public class SessionTracker extends HttpServlet {
         }
         else{ //if the session is pre-existing
 
+            session.setAttribute("sessionID", sessionID);
             url = forwardRequest(request, response); //set the URL to the appropriate directory
             getServletContext().getRequestDispatcher(url).forward(request, response);
         }
@@ -89,6 +90,9 @@ public class SessionTracker extends HttpServlet {
                 break;
             case "login":
                 url = "/login.jsp";
+                break;
+            case "debugging":
+                url = "/Debugging.jsp";
                 break;
         }
 
