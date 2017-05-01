@@ -22,7 +22,8 @@
     <body>
     <jsp:include page="/WEB-INF/includes/navBar.html"/>
     <br/><br/><br/><br/><br/><br/>
-   <h1>${sessionScope.sessionID}</h1>
+   <h1>${sessionScope.sessionID}</h1> <br><br><br>
+    <h1><a href="http://github.com/teufel0369/CS-4010">Link to my code</a></h1>
 
     </body>
     <jsp:include page="/WEB-INF/includes/footer.html"/>

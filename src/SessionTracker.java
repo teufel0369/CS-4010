@@ -95,9 +95,6 @@ public class SessionTracker extends HttpServlet {
             case "login":
                 url = "/login.jsp";
                 break;
-            case "logout":
-                url = "/login.jsp";
-                break;
         }
 
         return url;
